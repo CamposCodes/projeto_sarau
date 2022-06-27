@@ -1,6 +1,15 @@
+a{
+    color: #3300ffc3;
+    margin: auto; 
+}
+a:hover{
+    color: rgb(58, 58, 58); 
+    border: 10px dotted #3300ffc3;
+}
+
 #a{
-    background-color: rgb(0, 0, 0); /* mudei cor de fundo */
-    color: greenyellow; /* mudei cor da letra */
+    background-color: rgb(57, 57, 57); /* mudei cor de fundo */
+    color: #3300ffc3; /* mudei cor da letra */
     height: 150px; /* altura  do bloco*/
     width: 100px; /* largura do bloco */
     
@@ -10,13 +19,13 @@
     
     /*border*/
     border-width: 2cm;      /* tamanho da borda */
-    border-color:rgb(255, 0, 0) ; /* cor da borda */
-    border-style: groove;   /* estilo da borda */
+    border-color: #3300ffc3; /* cor da borda */
+    border-style: ridge;   /* estilo da borda */
 
-    border: 10px groove greenyellow; /*border com tudo junto*/
+    border: 10px groove  #3300ffc3; /*border com tudo junto*/
 
     /*margin=margem*/
-    margin: 5%;
+    margin: auto;
 
     /* overflow  -> controle do limite de conteudo do elemento */
     overflow: auto;
@@ -24,23 +33,25 @@
 }
 
 #s{
-    margin: 2%;
-    color: greenyellow;
-    background-color: black;
+    margin: auto;
+    color:  #3300ffc3;
+    background-color: rgb(46, 46, 46);
     height: 0.8cm;
     width: 3cm;
     font-size: larger;
     font-style: italic;
-    border: 8px double greenyellow;
+    border: 8px ridge  #3300ffc3;
 }
 
 #t{
-    margin: 25%;
-    color: greenyellow;
-    background-color: black;
-    border: 8px dotted greenyellow;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+    color:  #3300ffc3;
+    background-color: rgb(61, 61, 61);
+    border: 8px ridge  #3300ffc3;
 
-    display: inline;
+    /*display: inline;*/
 }
 
 /* ESTILOS DE BORDA:
